@@ -1,0 +1,11 @@
+streamlit
+streamlit-chat
+transformers
+pypdf
+docx2txt
+langchain_experimental
+langchain_huggingface
+langchain
+qdrant-client
+langchain-community
+torch

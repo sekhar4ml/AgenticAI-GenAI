@@ -1,0 +1,15 @@
+pinecone
+docx2txt
+qdrant-client
+langchain_cohere
+lark
+langchain_ollama
+langchain_chroma
+doc2txt
+chromadb
+langchain_huggingface
+HuggingFaceEmbeddings
+faiss-cpu
+qdrant-client
+langchain-community
+load_dotenv
