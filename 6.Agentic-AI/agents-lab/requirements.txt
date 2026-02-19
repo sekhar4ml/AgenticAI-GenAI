@@ -1,0 +1,17 @@
+langchain-classic
+langchain_community
+langchain
+serpapi
+dotenv
+openai
+ollama
+langchain_openai
+langchain_core
+langchain_ollama
+wikipedia
+numexpr
+yfinance
+faiss-cpu
+psycopg[binary]
+openai-agents
+agno
