@@ -1,0 +1,31 @@
+read_cv_task:
+  description: >
+    Extract the relevant information from the given CV. Focus on the key skills, relevant experiences, and any other interesting information that can help in the job application process.
+    Ensure to capture the canndidate's professional summary, technical skills, work experience, and any certifications or awards. 
+    
+    CV file: {cv_file}
+  expected_output: >
+    A structured summary of the CV that includes:
+    - Key skills
+    - Professional summary
+    - Technical skills
+    - Work experience
+    - Education
+    - Certifications or awards
+  
+    - Any other interesting information
+
+match_cv_task:
+  description: >
+    Match the given CV with the job oppertunities based on the skill, experience and key achievements
+    Evaluate how well the candidate's profile fits for each of the job description.
+    focus on the key skills and experiences that align with the job requirements.
+
+     jobs CSV file: {csv_file}  
+     CV file: {cv_file}
+  expected_output: >
+    A ranked list of job opportunities that match the candidate's profile, including:
+    - Job title
+    - Matching score in percentage
+    - key matching skills
+  
